@@ -1,12 +1,12 @@
 body > div{
     display: inline-block;
-    width: 800px;
-    margin-left: calc( (100% - 800px ) / 2 );
+    width: 1000px;
+    margin-left: calc( (100% - 1000px ) / 2 );
     background-color: #ffffff;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-div > header{
+header{
      display: inline-block;
      width: 100%;
      margin-top: 20px;
@@ -17,14 +17,14 @@ header > img{
     float: left;
     height: 50px;
 }
-
-header > nav{
+ 
+nav{
     display: inline-block;
     float: right;
     margin-top: 10px;
 }
 
-nav > a{
+a{
     display: inline-block;
     color: #9E9E9E;
     text-decoration: none;
@@ -39,12 +39,12 @@ nav > a{
 a:nth-of-type(5){
     border: 3px solid black;
     margin-top: -3px;
-    margin-left: 30px;
+    margin-left: 40px;
     text-transform: uppercase;
     border-radius: 50px;
 }
 
-div > main{
+main{
     display: inline-block;
     width: 100%;
     margin-top: 25px;
@@ -54,26 +54,28 @@ main > div{
     display: inline-block;
     color: #9E9E9E;
     width: 40%;
+    margin-left: 5%;
     margin-top: 30px;
+    float: left;
 }
 
-div > h1{
+h1{
     display: inline-block;
     width: 100%;
     font-size: 60px;
     margin: 0;
 }
 
-div > p{
+p{
     display: inline-block;
     width: 100%;
-    font-size: 25px;
+    font-size: 24px;
     margin: 0;
 }
 
 main > img{
     display: inline-block;
-    float: right;
-    width: 50%;
-    margin-right: 5%;
+    float: left;
+    width: 45%;
+    margin-left: 10%;
 }
