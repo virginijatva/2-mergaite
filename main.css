@@ -2,47 +2,78 @@ body > div{
     display: inline-block;
     width: 800px;
     margin-left: calc( (100% - 800px ) / 2 );
-    background-color: lightgreen;
+    background-color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 div > header{
      display: inline-block;
      width: 100%;
+     margin-top: 20px;
 }
 
 header > img{
     display: inline-block;
     float: left;
-    background-color: aquamarine;
+    height: 50px;
 }
 
 header > nav{
     display: inline-block;
     float: right;
+    margin-top: 10px;
 }
 
 nav > a{
     display: inline-block;
+    color: #9E9E9E;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+a:nth-of-type(5){
+    border: 3px solid black;
+    margin-top: -3px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    border-radius: 50px;
 }
 
 div > main{
     display: inline-block;
     width: 100%;
+    margin-top: 25px;
 }
 
 main > div{
-    display: inline-block;}
+    display: inline-block;
+    color: #9E9E9E;
+    width: 40%;
+    margin-top: 30px;
+}
 
 div > h1{
     display: inline-block;
+    width: 100%;
+    font-size: 60px;
+    margin: 0;
 }
 
 div > p{
     display: inline-block;
-
+    width: 100%;
+    font-size: 25px;
+    margin: 0;
 }
 
-div > img{
+main > img{
     display: inline-block;
-
+    float: right;
+    width: 50%;
+    margin-right: 5%;
 }
